@@ -27,3 +27,19 @@ function draw() {
   }
   
 }
+function keyPressed(){
+  if(key==CODED){
+    if(keyCode == LEFT){
+      dir = 0;
+      xPos -= 10;
+      num++;
+      num %= 4;
+    }
+    if(keyCode == RIGHT){
+      dir = 1;
+      xPos += 10;
+      num++;
+      num %= 4;
+    }
+  }
+}
