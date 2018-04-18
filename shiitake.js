@@ -2,7 +2,7 @@ PImage [][] dog = new PImage[2][5];
 int dir, num, xPos;
 
 function setup() {
-  frameRate(6);
+
   createCanvas(800, 800);
 
   for(int num = 0; num < 5; num++){
