@@ -1,5 +1,5 @@
 PImage [][] dog = new PImage[2][5];
-int dir, num, xPos;
+var dir, num, xPos;
 
 function setup() {
 
